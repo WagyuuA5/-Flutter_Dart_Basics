@@ -1,29 +1,136 @@
-# 🎯 Flutter Dart Basics
+#  Flutter Dart Basics
 
-Proyek latihan untuk memahami dasar-dasar bahasa **Dart** sebelum masuk ke Flutter widget.
-Fokus pada OOP, null safety, collection, higher-order function, dan extension methods.
+A collection of exercises and examples designed to build a solid understanding of the **Dart programming language** before developing Flutter applications.
 
-## ✨ Yang Dipelajari
-- Class, constructor, named constructor, factory
-- Null safety & nullable types
-- Higher-order functions: `where`, `map`, `fold`
-- Abstract class, interface, dan polymorphism
-- Extension methods
-- Generic functions
-- Error handling dengan try-catch
+This project covers the core concepts of Dart, including object-oriented programming, null safety, collections, higher-order functions, generics, and error handling.
 
-## 🛠️ Tech Stack
-- Dart (tanpa Flutter — pure Dart script)
+---
 
-## 🚀 Cara Menjalankan
+##  Features
+
+- Object-Oriented Programming (OOP)
+  - Classes
+  - Constructors
+  - Named Constructors
+  - Factory Constructors
+- Null Safety & Nullable Types
+- Collections (`List`, `Set`, `Map`)
+- Higher-Order Functions
+  - `map()`
+  - `where()`
+  - `fold()`
+- Abstract Classes & Interfaces
+- Polymorphism
+- Extension Methods
+- Generic Functions
+- Exception Handling using `try-catch`
+
+---
+
+##  Tech Stack
+
+- Dart SDK
+- Pure Dart (No Flutter Framework)
+
+---
+
+##  Getting Started
+
+### Prerequisites
+
+- Install the latest **Dart SDK**
+
+### Run the Project
+
 ```bash
 dart run lib/main.dart
 ```
 
-## 📂 Konsep Utama
-| Konsep | Keterangan |
-|---|---|
-| `factory` constructor | Membuat instance dari Map (pola JSON parsing) |
-| `abstract class` | Kontrak perilaku, diimplementasikan dengan `implements` |
-| Extension method | Menambah method ke tipe yang sudah ada (`double.toRupiah()`) |
-| Generic `<T>` | Type-safe function tanpa mengunci ke satu tipe data |
+---
+
+##  Core Concepts
+
+| Concept | Description |
+|----------|-------------|
+| **Factory Constructor** | Creates objects from existing data, commonly used for JSON deserialization. |
+| **Named Constructor** | Provides multiple ways to instantiate a class. |
+| **Abstract Class** | Defines a contract that must be implemented by subclasses. |
+| **Interface** | Achieved using the `implements` keyword. |
+| **Polymorphism** | Allows objects of different classes to be treated through a common interface. |
+| **Extension Method** | Adds new functionality to existing types without modifying their source code. |
+| **Generic `<T>`** | Enables reusable, type-safe functions and classes. |
+| **Higher-Order Function** | Functions that accept or return other functions, such as `map`, `where`, and `fold`. |
+| **Exception Handling** | Handles runtime errors gracefully using `try`, `catch`, and `finally`. |
+
+---
+
+##  Academic Information
+
+| Field | Details |
+|--------|---------|
+| **Institution** | SMK Telkom Malang |
+| **Program** | Software Engineering |
+| **Project Type** | Dart Programming Fundamentals |
+| **Status** |  Completed |
+| **Year** | 2026 |
+
+---
+
+##  Project Structure
+
+```text
+lib/
+├── main.dart
+├── models/
+├── services/
+├── utils/
+└── extensions/
+```
+
+---
+
+##  Learning Objectives
+
+This project aims to:
+
+- Understand the fundamentals of the Dart language.
+- Apply Object-Oriented Programming principles.
+- Write clean, maintainable, and type-safe code.
+- Prepare for Flutter application development.
+- Practice solving programming problems using modern Dart features.
+
+---
+
+##  Author
+
+**Wahyu Ravi Anggoro**
+
+Student at **SMK Telkom Malang**
+
+GitHub: **[@WagyuuA5](https://github.com/WagyuuA5)**
+
+---
+
+##  License
+
+Copyright © 2026 **Wahyu Ravi Anggoro**
+
+Licensed under the **Apache License, Version 2.0**.
+
+You may obtain a copy of the License at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an **"AS IS" BASIS**, without warranties or conditions of any kind, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+---
+
+<div align="center">
+
+###  If you find this project helpful, consider giving it a star!
+
+*Building reliable software through clean code, continuous learning, and practical experience.*
+
+Made  by **Wahyu Ravi Anggoro**
+
+</div>
