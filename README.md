@@ -1,16 +1,29 @@
-# flutter_basics_dasar
+# 🎯 Flutter Dart Basics
 
-A new Flutter project.
+Proyek latihan untuk memahami dasar-dasar bahasa **Dart** sebelum masuk ke Flutter widget.
+Fokus pada OOP, null safety, collection, higher-order function, dan extension methods.
 
-## Getting Started
+## ✨ Yang Dipelajari
+- Class, constructor, named constructor, factory
+- Null safety & nullable types
+- Higher-order functions: `where`, `map`, `fold`
+- Abstract class, interface, dan polymorphism
+- Extension methods
+- Generic functions
+- Error handling dengan try-catch
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- Dart (tanpa Flutter — pure Dart script)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Cara Menjalankan
+```bash
+dart run lib/main.dart
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Konsep Utama
+| Konsep | Keterangan |
+|---|---|
+| `factory` constructor | Membuat instance dari Map (pola JSON parsing) |
+| `abstract class` | Kontrak perilaku, diimplementasikan dengan `implements` |
+| Extension method | Menambah method ke tipe yang sudah ada (`double.toRupiah()`) |
+| Generic `<T>` | Type-safe function tanpa mengunci ke satu tipe data |
